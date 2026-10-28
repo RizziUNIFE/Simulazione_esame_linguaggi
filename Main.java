@@ -34,7 +34,7 @@ public class Main {
                 else if (tipo.equals("innovazione")) {
                     aziende = sc.nextInt();
                     imptemp = sc.nextFloat();
-                    imptot = 1.3 *1000;
+                    imptot = imptemp *1000;
                     Innovazione i = new Innovazione(codice, titolo ,tipo, nomeco, orgco, aziende, imptot);
                     prgs.add(i);
                 }
